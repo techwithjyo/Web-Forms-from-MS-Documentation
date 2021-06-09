@@ -49,5 +49,14 @@ namespace Web_Forms_from_MS_Documentation
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button testButton;
+
+        /// <summary>
+        /// testDropdownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList testDropdownList;
     }
 }

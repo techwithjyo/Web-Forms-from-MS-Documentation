@@ -15,6 +15,15 @@
 
             <asp:Button ID="testButton" runat="server" OnClick="testButton_Click" Text="Click Me"/>
         </div>
+        <br />
+        <div>
+            <asp:DropDownList runat="server" id="testDropdownList" autopostback="true" onselectedindexchanged="testDropdownList_SelectedIndexChanged">
+                <asp:ListItem Value="firstIndex">First</asp:ListItem>
+                <asp:ListItem Value="secondIndex">Second</asp:ListItem>
+                <asp:ListItem Value="thirdIndex">Third</asp:ListItem>
+                <asp:ListItem Value="fourthIndex">Fourth</asp:ListItem>
+            </asp:DropDownList>
+        </div>
     </form>
 </body>
 </html>
