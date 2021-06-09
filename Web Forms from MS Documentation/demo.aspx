@@ -4,9 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href='Bootstrap/bootstrap.css' rel='stylesheet' />
-    <link href='Bootstrap/jquery-ui-1.10.3.custom.css' rel='stylesheet' />
-    <link href='Content/LoginStyle.css' rel='stylesheet' />
+    <%--<link href='Bootstrap/bootstrap.css' rel='stylesheet' />
+    <link href='Bootstrap/jquery-ui-1.10.3.custom.css' rel='stylesheet' />--%>
+    <link href='Content/bootstrap.css' rel='stylesheet' />
     <title>Demo Page </title>
 </head>
 <body>
@@ -14,10 +14,10 @@
         <div>
             <asp:Label runat="server" ID="HelloWorldLabel"></asp:Label>
 
-            <asp:TextBox ID="textBoxDemo" runat="server" CssClass="form-control input-lg"></asp:TextBox>
+            <asp:TextBox ID="textBoxDemo" Width="200px" runat="server" CssClass="form-control input-lg"></asp:TextBox>
 
             <asp:Button ID="testButton" class="btn btn-danger" runat="server" OnClick="testButton_Click" Text="Click Me" 
-                CssClass='ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-hover'/>
+                />
         </div>
         <br />
         <div>
